@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 50px 0 20px 0;
+    background-color: #f4e4ba;
+}
+
+#outer-container{
+    display:flex;
+    background-color: white;
+   
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;  
+
+    border-radius: 5%;
+    position: absolute;
+    top: 100px;
+
+       
+
+}
+
+#container{
+   
+    margin-top: 20px;
+}
+
+
+
+
+#form-div{
+
+    display: flex;
+    height: 40vh;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem; 
+ 
+
+ 
+}
+
+
+#amount-container, #from-to-container, #final-amount, #get-exchange-rate{
+    width: 80%;
+    margin: 10 10 0 10;
+    padding: 0 10 0 10;
+    
+
+
+}
+
+#amount-container{
+    font-size: 20px;
+
+}
+
+#amount-container input{
+    width: 100%;
+    margin-top: 10px;
+    height: 2rem;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#from-to-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.select-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-select {
+    display: flex;
+    gap: 0.1 rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    width: 90px;
+}
+
+.flag-select img{
+
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+   
+
+    /* background-color: red; */
+}
+
+.flag-select select{
+    width: 60px;
+    border: none;
+
+    
+} 
+
+#get-exchange-rate{
+  
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(198, 65, 107);
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+
+
+
